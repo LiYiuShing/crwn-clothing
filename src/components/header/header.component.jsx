@@ -6,7 +6,6 @@ import CartIcon from '../cart-icon/cart-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import './header.styles.scss';
 import { ReactComponent as Logo } from '../../assets/crown.svg';
-//import SHOP_DATA from '../../pages/shop/shop.data';
 
 const Header = ({ currentUser, hidden }) => (
     <div className='header'>

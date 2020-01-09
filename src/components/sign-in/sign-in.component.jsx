@@ -46,7 +46,8 @@ class Sign extends React.Component {
                         handleChange={this.handleChange}
                         value={this.state.email} 
                         label='email'
-                        required />
+                        required 
+                    />
                     <FormInput 
                         name='password'
                         type='password'
